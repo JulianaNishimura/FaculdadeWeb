@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Verse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="text-center p-4 mb-4 bg-dark">
+        <h1 class="text-primary fs-4 mb-3">
+            Quem é Hatsune Miku, fenômeno pop virtual!
+        </h1>
+
+        <nav class="d-flex justify-content-center align-items-center gap-4 mt-2">
+            <!-- Página index-->
+            <span class="d-flex align-items-center gap-1">
+                <i class="bi bi-house-fill fs-5 text-primary"></i>                
+                <a href="../index.html" class="fs-6 text-light text-decoration-none">Página Principal</a>
+            </span>
+            
+            <!-- Músicas -->
+            <span class="d-flex align-items-center gap-1">
+                <i class="bi bi-music-note-beamed fs-5 text-primary"></i>
+                <a href="./musicas.html" class="fs-6 text-light text-decoration-none">Músicas Famosas</a>
+            </span>
+
+            <!-- Albuns-->
+            <span class="d-flex align-items-center gap-1">
+                <i class="bi bi-disc-fill fs-5 text-primary"></i>                
+                <a href="#" class="fs-6 text-light text-decoration-none">Álbuns</a>
+            </span>
+
+            <!-- Formulário -->
+            <span class="d-flex align-items-center gap-1">
+                <i class="bi bi-receipt-cutoff fs-5 text-primary"></i>
+                <a href="./formulario.html" class="fs-6 text-light text-decoration-none">Formulário</a>
+            </span>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="text-center m-5">
+            <span class="badge bg-info text-dark fs-2 p-3">
+                Álbuns Da Hatsune Miku
+            </span>
+        </h2>
+
+        <div id="carouselExampleControls" class="carousel slide w-75 mx-auto mb-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../midia/ProjectDIVA.png" class="d-block w-100" alt="Project Diva">
+                    <div class="carousel-caption d-none d-md-block fs-4 bg-light bg-opacity-70 rounded bg-info-subtle text-info-emphasis">
+                        <h5 class="fs-3">Project Diva</h5>
+                        <a href="https://www.youtube.com/watch?v=qUuK1rdmuv4&list=PL4wjQC0_Imx2q0RpN5u5NpeQrI64SfvNO" target="_blank" class="btn btn-success mt-2">Ouvir no YouTube</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="../midia/ReDial.png" class="d-block w-100" alt="Re:Dial">
+                    <div class="carousel-caption d-none d-md-block fs-4 bg-light bg-opacity-70 rounded bg-info-subtle text-info-emphasis">
+                        <h5 class="fs-3">Re:Dial</h5>
+                        <a href="https://www.youtube.com/watch?v=cpTIJyU7Ezw&list=RDcpTIJyU7Ezw&start_radio=1" target="_blank" class="btn btn-success mt-2">Ouvir no YouTube</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="../midia/MagicalMirai.png" class="d-block w-100" alt="Magical Mirai 2019 Album">
+                    <div class="carousel-caption d-none d-md-block fs-4 bg-light bg-opacity-70 rounded bg-info-subtle text-info-emphasis">
+                        <h5 class="fs-3">Magical Mirai 2019 Album</h5>
+                        <a href="https://youtu.be/NjGb5OsrdZo?si=oaekZwNUOdwffK6M" target="_blank" class="btn btn-success mt-2">Ouvir no YouTube</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="../midia/MikuSymphony.png" class="d-block w-100" alt="Hatsune Miku Symphony">
+                    <div class="carousel-caption d-none d-md-block fs-4 bg-light bg-opacity-70 rounded bg-info-subtle text-info-emphasis">
+                        <h5 class="fs-3">Hatsune Miku Symphony</h5>
+                        <a href="https://www.youtube.com/watch?v=rIYqjKXf6Ho&list=PLcHeIFt3gmWpdkJx7ND2wcKXGsSyHVo6z" target="_blank" class="btn btn-success mt-2">Ouvir no YouTube</a>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+
+        <div class="accordion w-75 mx-auto my-5 mb-5" id="accordionAlbums">
+            <div class="accordion-item border-0">
+                <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button bg-info text-dark fs-3 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <i class="bi bi-music-note-beamed me-2"></i> Project Diva
+                </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionAlbums">
+                    <div class="accordion-body bg-light rounded">
+                        <strong>Trilha sonora oficial do jogo Project Diva.</strong> Contém músicas clássicas da Hatsune Miku com ritmos animados e icônicos, perfeitas para fãs do jogo de ritmo. Inclui hits como "World is Mine" e "Melt", que se tornaram verdadeiros símbolos do universo Vocaloid.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item border-0">
+                <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed bg-info text-dark fs-3 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <i class="bi bi-heart-fill me-2"></i> Re:Dial
+                </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionAlbums">
+                    <div class="accordion-body bg-light rounded">
+                        <strong>Músicas emocionais e experimentais.</strong> Este álbum mostra a versatilidade de Miku, com canções que transitam entre melancolia e energia, explorando novos estilos e arranjos. É ideal para quem quer conhecer o lado mais artístico e inovador da vocaloid.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item border-0">
+                <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed bg-info text-dark fs-3 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <i class="bi bi-star-fill me-2"></i> Magical Mirai 2019 Album
+                </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionAlbums">
+                    <div class="accordion-body bg-light rounded">
+                        <strong>Temas do evento anual Magical Mirai.</strong> Contém performances ao vivo de músicas clássicas e novas da Hatsune Miku. Este álbum celebra a cultura Vocaloid, trazendo arranjos energéticos e emocionantes que capturam a experiência do show e a interação com os fãs.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item border-0">
+                <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed bg-info text-dark fs-3 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <i class="bi bi-easel-fill me-2"></i> Hatsune Miku Symphony
+                </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionAlbums">
+                    <div class="accordion-body bg-light rounded">
+                        <strong>Versões orquestrais de músicas da Miku.</strong> Este álbum traz arranjos clássicos de grandes sucessos da Hatsune Miku, mostrando a dimensão sinfônica das canções virtuais. Ideal para fãs que apreciam música orquestrada e querem ouvir Miku de forma sofisticada e imersiva.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark p-3 mt-0">
+        <p class="m-0 text-light">Feito por Juliana Yumi e Kennedy Rios</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
