@@ -1,0 +1,40 @@
+#titulo_pagina{
+    background-color: rgb(222, 238, 253);
+    font-size: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#paragrafo_1{
+    font-style: italic;
+    font-size: 24px;
+}
+
+#paragrafo_2{
+    background-color: rgb(252, 206, 121);
+    font-weight: 900;
+    font-size: 30px;
+}
+
+#segundo_item{
+    font-style: italic;
+    background-color: gray;
+}
+
+#lista_principal{
+    font-family:monospace;
+    font-size: x-large;
+}
+
+#tabela{
+    font-family:monospace;
+    font-size: x-large;
+}
+
+#cabecalho{
+    font-weight: 800;
+    background-color: gray;
+}
+
+.linha_par{
+    background-color: pink;
+}

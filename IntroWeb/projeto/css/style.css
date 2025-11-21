@@ -1,0 +1,10 @@
+body {
+    background:
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), 
+        url(../midia/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 126%;
+    background-position: center;
+}
+
+
