@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./exercicio_extra.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>IMC</h1>
+    </header>
+    <main class="principal">
+        <section class="tabela">
+            <h2>Pessoas Cadastradas</h2>
+            <table>
+                <tr>
+                <th>Nome</th>
+                <th>Altura</th>
+                <th>Peso</th>
+                <th>IMC</th>
+                <th>Status</th>
+                <th>Opções</th>
+                </tr>
+            </table>
+        </section>
+          <section class="lateral">
+            <form class="formulario">
+                <h2>Cadastrar</h2>
+                <p>Nome</p>
+                <input type="text" name="nome">
+                <p>Altura</p>
+                <input type="number" name="altura" min="0.0" step="0.1">
+                <p>Peso</p>
+                <input type="number" name="peso" min="0.0" step="0.1">
+                <button class="botoesExistentes">Cadastrar</button>
+            </form>
+            <section>
+                <h2><b>Operações</b></h2>
+                <button class="botoesExistentes">Remover maior IMC</button>
+                <button class="botoesExistentes">Remover menor IMC</button>
+            </section>
+          </section>
+    </main>
+</body>
+</html>

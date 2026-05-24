@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 200%;
+    text-align: center;
+}
+
+.botaoAdicionaEstilo{
+    font-size: large;
+    padding: 3%;
+    background-color: rgb(21, 185, 144);
+    border-style: none;
+    border-radius: 5px;
+}
+
+.botaoDiminuiEstilo{
+    font-size: large;
+    padding: 3%;
+    background-color: rgb(255, 208, 0);
+    border-style: none;
+    border-radius: 5px;
+}
+
+.botaoRemoveEstilo{
+    font-size: large;
+    padding: 3%;
+    background-color: rgb(209, 65, 113);
+    border-style: none;
+    border-radius: 5px;
+}
+
+.principal{
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.lateral{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    padding: 3% 3%;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.botoesExistentes{
+    font-size: large;
+    padding: 3%;
+}
+
+.tabela{
+    width: 50%;
+    padding: 0% 6%;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.botoesExistentes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin: 10%;
+    background-color: chocolate;
+    border-style: none;
+    border-radius: 5px;
+}
